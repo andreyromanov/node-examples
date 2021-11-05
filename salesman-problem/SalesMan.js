@@ -5,7 +5,7 @@ module.exports = class SalesMan{
     }
 
     walk(){
-        console.log(`${this.name} is walking...`);
+        return `${this.name} is walking...`;
     }
 
     toString(){
